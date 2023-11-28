@@ -59,29 +59,16 @@ If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
 
 Program:
-module exp1(a,b,y1,y2,y3,y4,y5,y6,y7);
-input a,b;
-output y1,y2,y3,y4,y5,y6,y7;
-and (y1,a,b);
-or (y2,a,b);
-not (y3,a);
-xor (y4,a,b);
-xnor (y5,a,b);
-nand (y6,a,b);
-nor (y7,a,b);
-endmodule/*
+/*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: SAJITH AHAMED F
 RegisterNumber:  23000083*/
 Logic symbol & Truthtable: 
-![LOGIC GATES-WAVEFORM](https://github.com/Sajith-28/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149937471/ebe77c47-fba0-423d-a47d-043116b9bae2)
-
-
 RTL realization 
-Output:![LOGIC GATES-DIAGRAM](https://github.com/Sajith-28/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149937471/f0c08bad-d51b-46ef-a64e-c391f62d4e7f)
-
-
- 
+Output:
+![LOGIC GATES-CODE](https://github.com/Sajith-28/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149937471/aeb19161-90d8-412e-87ec-97124580654d)
+![LOGIC GATES-DIAGRAM](https://github.com/Sajith-28/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149937471/0d688b29-feb6-4130-ad8d-5e0626835ea9)
+![LOGIC GATES-WAVEFORM](https://github.com/Sajith-28/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149937471/109b2324-fe3a-427b-b336-052c9575a3d3)
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
